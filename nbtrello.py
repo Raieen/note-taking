@@ -1,5 +1,5 @@
 from IPython.core.magic import register_line_magic, register_cell_magic
-from trello import TrelloClient
+from trello import TrelloClient, Label
 
 status_dict = {'todo':0, 'doing':1, 'done':2}
 
